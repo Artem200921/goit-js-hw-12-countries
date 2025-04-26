@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+ul,
+menu {
+  margin: 0;
+}
